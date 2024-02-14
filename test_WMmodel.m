@@ -27,7 +27,7 @@ addpath(genpath(fullfile(basePath)));
 
 %% Create synthetic outcome data %%
 
-numSubjs = 10; % try 8 for shorter runtime
+numSubjs = 30; % try 8 for shorter runtime
 numBlocks = 3;
 trials_per_block = 300;
 trials_per_subj = numBlocks*trials_per_block;
